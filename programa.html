@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+<meta charset="UTF-8"> 
+</head>
+
+<style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+</style>
+
+<body>
+Informe caminho do arquivo XML de entrada: </br> 
+<input type="text" name="file_path"> </br> </br>
+<button type="button" onclick="carregaDocXML()">Listar categorias </button> </br> </br>
+<table id="lista"></table>
+<br><br>
+
+
+<script type="text/javascript" language="javascript">
+
+var XML_FILE = "nyt_rss_feed.xml";
+var XMLSCHEMA_FILE = "rss-2_0.xsd";
+
+/* Abre o arquivo XML e chama uma funcao para fazer a sua validacao */
+function carregaDocXML() {
+  var xmlhttp = new XMLHttpRequest();
+
+/* XMLHttpRequest é um objeto JavaScript  usado para recuperar de um 
+modo fácil dados em uma URL. Ao contrário do que o nome sugere, 
+XMLHttpRequest pode ser usado para recuperar qualquer tipo de dados, 
+e não apenas XML. Ele possui suporte também para outros protocolos 
+além do HTTP (incluindo os protocolos file e ftp ). */
+	
+   
+  xmlhttp.onreadystatechange = function() {
+	  
+    /* readyState = 4 ---> Leitura ja concluida 
+       status = 200   ---> request bem sucedido */
+    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+      /* Depois que o arquivo do doc XML for carregado,
+         chama a funcao que fará a validacao doc XML*/
+		validaDocXML(xmlhttp);
+    }
+  };
+  xmlhttp.open("GET", XML_FILE, true);
+  xmlhttp.send();
+}
+
+
+/* Faz a validacao de um doc XML passado como parametro
+   conforme o XML Schema em XMLSCHEMA_FILE. 
+   Caso o doc seja valido, chama a funcao que exibira 
+   o seu conteudo. */
+function validaDocXML(xmlhttp) {
+  var xsdhttp = new XMLHttpRequest();
+
+  xsdhttp.onreadystatechange = function() {
+    if (xsdhttp.readyState == 4 && xsdhttp.status == 200) {
+      /* Depois que o arquivo do esquema for carregado,
+         chama a funcao que usara o esquema para fazer a 
+         validacao do doc XML*/
+      var resposta = validaEsquema(xmlhttp.responseText, xsdhttp.responseText);
+
+      if (resposta != null) {
+		/* Doc XML nao tem uma estrutura valida segundo o 
+           esquema XML Schema definido como base*/
+        
+        /* Exibe mensagem de erro */
+        alert("O arquivo fornecido nao possui o formato esperado! \nProblema: " + resposta);
+	  }
+      else { 
+		
+		mostraConteudo(xmlhttp);
+	  }
+    };
+  };
+  xsdhttp.open("GET", XMLSCHEMA_FILE, true);
+  xsdhttp.send();
+  console.log("validaDocXML: "+resposta);
+  return resposta;
+}
+
+/* Recebe uma string contendo um doc XML e outra contendo
+   um esquema em XML Schema;  verifica a validade do documento 
+   segundo o esquema. 
+   Se o documento eh valido, devolve null. Senao, devolve
+   uma string com o erro encontrado do documento XML. */
+function validaEsquema(strDocXML,strDocXSD) {
+
+    /* cria objeto que sera passado para a funcao de validacao */
+    var modulo = {
+          xml: strDocXML,   /* conteudo do doc XML a ser validado */
+          schema: strDocXSD, /* conteudo do arquivo XSD com o esquema */
+          arguments: ["--noout", "--schema", XMLSCHEMA_FILE, XML_FILE]
+    };
+     
+    /* Chama o validador implementado na biblioteca xmllint.js 
+       disponivel em http://syssgx.github.com/xml.js/js/xmllint.js */
+       
+    var resposta = validateXML(modulo);
+    
+    if (resposta.match("fails to validate")) 
+      return resposta;
+    
+    else return null;
+}
+
+/* Exibe os dados do doc XML em um tabela 
+   caso o doc esteja no formato esperado */
+function mostraConteudo(xmlhttp) {
+	var docXML = xmlhttp.responseXML  /* obtem arvore do documento */
+	var tabela = "<tr><th>Categoria de Noticias</th></tr>";
+
+	/* Executa uma consulta em XPath no documento XML */
+	var consulta_xpath = "//item";
+	var allNews = docXML.evaluate(consulta_xpath, docXML, null, XPathResult.ANY_TYPE, null);
+
+	/* Para cada elemento CD devolvido na consulta, exibe como uma
+	 nova linha na tabela os valores dos elementos ARTISTA e TITULO */
+	var noticia = allNews.iterateNext();
+	var nome_cat = null;
+	var cat_list = [];
+	
+	while (noticia)
+	{
+		var arr = noticia.getElementsByTagName("category");
+
+		if (arr != null)
+		{	
+			var not_obj = {
+				"titulo": noticia.getElementsByTagName("title")[0].childNodes[0].nodeValue, 
+				"url": noticia.getElementsByTagName("link")[0].childNodes[0].nodeValue
+			};
+			
+			for (var k = 0; k < arr.length; k++) 
+			{
+				nome_cat = arr[k].childNodes[0].nodeValue;
+				var j = 0;
+				
+				while (j < cat_list.length) {
+					// sao iguais
+						
+					if (nome_cat == cat_list[j].nome) {
+						break;
+					}
+					j++;
+				}
+				
+				if (j == cat_list.length && nome_cat != null) {
+					tabela = tabela + "<tr> <td> <a href='programa.html'> " + nome_cat + " </a> </td></tr>";
+					
+					var cat_obj = {"nome": nome_cat, "noticias": [not_obj] };
+					cat_list.push(cat_obj);
+				}	
+			}
+		}
+
+		noticia = allNews.iterateNext();
+	}
+
+	document.getElementById("lista").innerHTML = tabela;
+}
+
+</script>
+<script src="http://syssgx.github.com/xml.js/js/xmllint.js"></script>
+</body>
+</html>

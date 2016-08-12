@@ -1,0 +1,581 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; International Home</title>
+    <link>http://www.nytimes.com/pages/international/index.html?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/InternationalHome.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2016  The New York Times Company</copyright>
+    <lastBuildDate>Tue, 09 Aug 2016 18:56:58 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; International Home</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>http://www.nytimes.com/pages/international/index.html?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>Susan Collins of Maine Says She Will Not Vote for Donald Trump</title>
+      <link>http://www.nytimes.com/2016/08/09/us/politics/susan-collins-trump.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/09/us/politics/susan-collins-trump.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/09/us/politics/susan-collins-trump.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/08/us/elections/08fd-collins/08fd-collins-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Senator Susan Collins spoke at a news conference in Washington in June.</media:description>
+      <media:credit>Al Drago/The New York Times</media:credit>
+      <description>The senator&#x2019;s announcement was another blow to Mr. Trump as he tries to unite his party and win more support from women.</description>
+      <dc:creator>ALEXANDER BURNS</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 03:29:43 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Republican Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Collins, Susan M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Maine</category>
+    </item>
+    <item>
+      <title>Mormons&#x2019; Distaste for Donald Trump Puts Utah Up for Grabs</title>
+      <link>http://www.nytimes.com/2016/08/10/us/politics/mormons-trump-utah.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/10/us/politics/mormons-trump-utah.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/10/us/politics/mormons-trump-utah.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/06/us/utah2/utah2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>&#x201C;The issue of religious liberty is an important one in the state, and the notion of a religious test for immigration raises deep concerns,&#x201D; said Chris Karpowitz, an associate professor at Brigham Young University.</media:description>
+      <media:credit>Kim Raff for The New York Times</media:credit>
+      <description>With their own history of facing religious bias, Mormons in reliably Republican Utah are worried about whether to support a nominee who denigrates Muslims.</description>
+      <dc:creator>ALAN RAPPEPORT</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 09:00:24 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mormons (Church of Jesus Christ of Latter-Day Saints)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Utah</category>
+    </item>
+    <item>
+      <title>Introducing The Run-Up, Our New Election Podcast</title>
+      <link>http://www.nytimes.com/2016/08/09/podcasts/introducing-the-run-up-our-new-election-podcast.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/09/podcasts/introducing-the-run-up-our-new-election-podcast.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/09/podcasts/introducing-the-run-up-our-new-election-podcast.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/09/podcasts/09runup-illo/09runup-illo-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit/>
+      <description>It&#x2019;s 90 days until the election. Twice a week on our new podcast, the campaign team at The Times will make sense of the final, delirious phase of the campaign.</description>
+      <dc:creator>MICHAEL BARBARO</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 14:06:32 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+    </item>
+    <item>
+      <title>Donald Trump Adopts G.O.P. Tax Cuts, but Balks at Trade Pacts</title>
+      <link>http://www.nytimes.com/2016/08/09/us/politics/donald-trump-economy-speech.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/09/us/politics/donald-trump-economy-speech.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/09/us/politics/donald-trump-economy-speech.html?partner=rss&amp;emc=rss"/>
+      <description>Mr. Trump sought to move beyond a week of turmoil, turning his attention to the economy with a speech in which he cast himself as a president who could create new jobs.</description>
+      <dc:creator>NEIL IRWIN and ALAN RAPPEPORT</dc:creator>
+      <pubDate>Mon, 08 Aug 2016 23:55:28 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Taxation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Income Tax</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tax Credits, Deductions and Exemptions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Child Care</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Corporate Taxes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Inheritance and Estate Taxes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Regulation and Deregulation of Industry</category>
+    </item>
+    <item>
+      <title>Parents of 2 Americans Killed in Benghazi Attack Sue Hillary Clinton</title>
+      <link>http://www.nytimes.com/2016/08/09/us/politics/benghazi-lawsuit-hillary-clinton.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/09/us/politics/benghazi-lawsuit-hillary-clinton.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/09/us/politics/benghazi-lawsuit-hillary-clinton.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/08/us/elections/08fd-Benghazi/08fd-Benghazi-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Patricia Smith, whose son was killed in Benghazi, Libya, in 2012, spoke at the Republican National Convention in Cleveland in July.</media:description>
+      <media:credit>Eric Thayer for The New York Times</media:credit>
+      <description>In a wrongful-death lawsuit filed on Monday, the parents claim that Mrs. Clinton&#x2019;s use of a private email server was a cause of the 2012 attack.</description>
+      <dc:creator>AMY CHOZICK</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 02:41:43 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Smith, Sean (1978-2012)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Clinton, Hillary Rodham</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Benghazi Attack (2012)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tyrone Woods</category>
+    </item>
+    <item>
+      <title>Putin and Erdogan, Both Isolated, Reach Out to Each Other</title>
+      <link>http://www.nytimes.com/2016/08/09/world/europe/russia-putin-turkey-erdogan-syria.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/09/world/europe/russia-putin-turkey-erdogan-syria.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/09/world/europe/russia-putin-turkey-erdogan-syria.html?partner=rss&amp;emc=rss"/>
+      <description>The Turkish president, Recep Tayyip Erdogan, is visiting his Russian counterpart, Vladimir V. Putin, to discuss Syria and trade.</description>
+      <dc:creator>NEIL MacFARQUHAR and TIM ARANGO</dc:creator>
+      <pubDate>Mon, 08 Aug 2016 20:12:04 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Turkey</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Erdogan, Recep Tayyip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coups D'Etat and Attempted Coups D'Etat</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Syria</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Assad, Bashar al-</category>
+    </item>
+    <item>
+      <title>Putin and Erdogan Meet for Talks</title>
+      <link>http://www.nytimes.com/video/world/europe/100000004576944/putin-and-erdogan-meet-for-talks.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/video/world/europe/100000004576944/putin-and-erdogan-meet-for-talks.html</guid>
+      <description>President, Vladimir V. Putin of Russia and President Recep Tayyip Erdogan of Turkey met in St. Petersburg on Tuesday to talk about diplomatic relations between the two countries.</description>
+      <dc:creator/>
+      <pubDate>Tue, 09 Aug 2016 14:00:06 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/nyt_per">Erdogan, Recep Tayyip</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_per">Putin, Vladimir V</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">Turkey</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">St Petersburg (Russia)</category>
+    </item>
+    <item>
+      <title>Your Daily Mini Crossword</title>
+      <link>http://www.nytimes.com/crosswords/game/mini?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/crosswords/game/mini</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/crosswords/game/mini?partner=rss&amp;emc=rss"/>
+      <description>Solve a bite-size crossword in just a few minutes.</description>
+      <dc:creator/>
+      <pubDate>Thu, 25 Feb 2016 07:18:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>In the Olympic Pool, Contempt for Drug Cheats Rises to the Surface</title>
+      <link>http://www.nytimes.com/2016/08/10/sports/olympics/doping-swimming-russia-lilly-king-yulia-efimova.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/10/sports/olympics/doping-swimming-russia-lilly-king-yulia-efimova.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/10/sports/olympics/doping-swimming-russia-lilly-king-yulia-efimova.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/09/sports/olympics/09DOPING/09DOPING-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Lilly King of the United States after winning the women&#x2019;s 100-meter breaststroke final Monday at the Rio Games, setting an Olympic record with a time of 1 minute 4.93 seconds.</media:description>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+      <description>Swimmers at the Rio Games who once served suspensions for doping have been openly vilified by their rivals, creating plenty of awkwardness.</description>
+      <dc:creator>CHRISTOPHER CLAREY and KAREN CROUSE</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 18:04:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Doping (Sports)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Olympic Games (2016)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>Live From Rio: Biles, Phelps, Hosszu and Ledecky in Spotlight</title>
+      <link>http://www.nytimes.com/2016/08/09/sports/olympics/rio-schedule-medals-results.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/09/sports/olympics/rio-schedule-medals-results.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/09/sports/olympics/rio-schedule-medals-results.html?partner=rss&amp;emc=rss"/>
+      <description>Here&#x2019;s our daily roundup of what happened, and what is going to happen, at the Summer Olympics in Rio de Janeiro.</description>
+      <dc:creator>SAM MANCHESTER</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 17:38:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>American Lilly King Makes Statement With Olympic Record in 100-Meter Breaststroke</title>
+      <link>http://www.nytimes.com/2016/08/09/sports/olympics/lilly-king-yulia-efimova-swimming-breaststroke.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/09/sports/olympics/lilly-king-yulia-efimova-swimming-breaststroke.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/09/sports/olympics/lilly-king-yulia-efimova-swimming-breaststroke.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/09/sports/09SWIMdress-1470709406810/09SWIMdress-1470709406810-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Lilly King of the United States won the gold medal in the 100-meter breaststroke on Monday in Olympic-record time, beating Yulia Efimova of Russia.</media:description>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+      <description>Yulia Efimova, King&#x2019;s rival who served a 16-month doping suspension, secured silver.</description>
+      <dc:creator>KAREN CROUSE</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 03:04:17 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Olympic Games (2016)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Swimming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">King, Lilly (1997- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Efimova, Yulia (1994- )</category>
+    </item>
+    <item>
+      <title>Brazilians Speak Portuguese, but the Olympics Must Use French</title>
+      <link>http://www.nytimes.com/2016/08/10/sports/olympics/french-official-language-olympic-games.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/10/sports/olympics/french-official-language-olympic-games.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/10/sports/olympics/french-official-language-olympic-games.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/10/sports/10FRANCOPHONEWEB2/10FRANCOPHONEWEB2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Micha&#xEB;lle Jean is the secretary general of the International Organization of la Francophonie. &#x201C;It&#x2019;s a struggle each time you have the Olympic Games, in a different country and a different city,&#x201D; she said.</media:description>
+      <media:credit>James Hill for The New York Times</media:credit>
+      <description>A group is determined to make sure nobody forgets that French is one of the Olympics&#x2019; two official languages, along with English.</description>
+      <dc:creator>SARAH LYALL</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 14:17:10 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">French Language</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Olympic Games (2016)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Language and Languages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Olympic Games</category>
+    </item>
+    <item>
+      <title>Full Coverage of the Games</title>
+      <link>http://www.nytimes.com/news-event/rio-olympics-2016?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/news-event/rio-olympics-2016</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/news-event/rio-olympics-2016?partner=rss&amp;emc=rss"/>
+      <description>All the Rio news, results and interactive features that are fit to print.</description>
+      <dc:creator/>
+      <pubDate>Sat, 06 Aug 2016 00:03:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Well: The Merits of Reading Real Books to Your Children</title>
+      <link>http://well.blogs.nytimes.com/2016/08/08/the-merits-of-reading-real-books-to-your-children/?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://well.blogs.nytimes.com/2016/08/08/the-merits-of-reading-real-books-to-your-children/</guid>
+      <atom:link rel="standout" href="http://well.blogs.nytimes.com/2016/08/08/the-merits-of-reading-real-books-to-your-children/?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/08/well/well-family-bedtimestory/well-family-bedtimestory-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Getty Images</media:credit>
+      <description>A small child cannot tap the duck in a board book and elicit a quack; for that, the child needs to turn to a parent.</description>
+      <dc:creator>PERRI KLASS, M.D.</dc:creator>
+      <pubDate>Mon, 08 Aug 2016 10:00:11 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/">E-Books and Readers</category>
+      <category domain="http://www.nytimes.com/namespaces/">Parenting</category>
+      <category domain="http://www.nytimes.com/namespaces/">Family</category>
+      <category domain="http://www.nytimes.com/namespaces/">Featured</category>
+      <category domain="http://www.nytimes.com/namespaces/">The Checkup</category>
+    </item>
+    <item>
+      <title>Applied Science: Ready to Snap at Work? Get in Touch With Your Inner Animal</title>
+      <link>http://www.nytimes.com/2016/08/07/business/ready-to-snap-at-work-get-in-touch-with-your-inner-animal.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/07/business/ready-to-snap-at-work-get-in-touch-with-your-inner-animal.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/07/business/ready-to-snap-at-work-get-in-touch-with-your-inner-animal.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/07/business/07APPLIED/07APPLIED-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Michael Waraksa</media:credit>
+      <description>Breathing and posture techniques can help you tame your hard-wired fight-or-flight response, alleviating anxiety and improving clarity and creativity.</description>
+      <dc:creator>PHYLLIS KORKKI</dc:creator>
+      <pubDate>Sat, 06 Aug 2016 15:20:19 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Anxiety and Stress</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Posture</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ergonomics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Workplace Environment</category>
+    </item>
+    <item>
+      <title>Mexico&#x2019;s Richest Man Confronts a New Foe: The State That Helped Make Him Rich</title>
+      <link>http://www.nytimes.com/2016/08/10/world/americas/mexicos-carlos-slim-helu.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/10/world/americas/mexicos-carlos-slim-helu.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/10/world/americas/mexicos-carlos-slim-helu.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/07/30/world/slim-web1/slim-web1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Carlos Slim, center, arriving for a meeting in Nicaragua last year. More than half of his cellphone company&#x2019;s sales now come from outside Mexico.</media:description>
+      <media:credit>Inti Ocon/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Carlos Slim built a business empire that has made him one of the world&#x2019;s richest men. But Mexico&#x2019;s leaders have been chipping away at his domain with regulations.</description>
+      <dc:creator>AZAM AHMED, RANDAL C. ARCHIBOLD and ELISABETH MALKIN</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 09:00:43 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Slim Helu, Carlos</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Telephones and Telecommunications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Cellular Telephones</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Antitrust Laws and Competition Issues</category>
+    </item>
+    <item>
+      <title>Minorities Suffer From Unequal Pain Treatment</title>
+      <link>http://www.nytimes.com/2016/08/10/us/how-race-plays-a-role-in-patients-pain-treatment.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/10/us/how-race-plays-a-role-in-patients-pain-treatment.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/10/us/how-race-plays-a-role-in-patients-pain-treatment.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/06/us/00pain-web1/00pain-web1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Roslyn Lewis of Tuscaloosa, Ala., injured her back while working at a dollar store. A decade later, the pain radiates to one of her knees and remains largely unaddressed.</media:description>
+      <media:credit>Ilana Panich-Linsman for The New York Times</media:credit>
+      <description>Researchers cite several reasons for the disparity, including evidence of racial bias and stereotyping. The lower level of treatment tends to lead to more disability.</description>
+      <dc:creator>ABBY GOODNOUGH</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 09:00:24 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Minorities</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Blacks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Pain-Relieving Drugs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Pain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Discrimination</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Health Insurance and Managed Care</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Race and Ethnicity</category>
+    </item>
+    <item>
+      <title>Trilobites: A Warning for Dogs, and Their Best Friends, in Study of Fertility</title>
+      <link>http://www.nytimes.com/2016/08/10/science/dog-sperm-fertility.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/10/science/dog-sperm-fertility.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/10/science/dog-sperm-fertility.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/10/science/10tb-dogsperm01/10tb-dogsperm01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Golden retriever puppies. The breed was among several in a study that were found to have declining sperm quality that could lead to fertility problems in the future.</media:description>
+      <media:credit>Arterra/UIG, via Getty Images</media:credit>
+      <description>Decreased sperm quality and other effects could be related to environmental causes, and further declines could harm the dogs&#x2019; ability to reproduce.</description>
+      <dc:creator>JAN HOFFMAN</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 17:41:00 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dogs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Reproduction (Biological)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Infertility</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Sperm</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Scientific Reports (Journal)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lea, Richard G.</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Chemicals</category>
+    </item>
+    <item>
+      <title>&#x2018;They Will Kill Us&#x2019;: Afghan Translators Plead for Delayed U.S. Visas</title>
+      <link>http://www.nytimes.com/2016/08/10/us/politics/afghan-translators-military-visas.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/10/us/politics/afghan-translators-military-visas.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/10/us/politics/afghan-translators-military-visas.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/10/us/10translate1/10translate1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Zar Mohammad Stanikzai at a relative&#x2019;s home in Afghanistan. He is waiting for one of the thousands of visas set aside for the translators and interpreters who helped the United States military during the wars in Afghanistan and Iraq.</media:description>
+      <media:credit>Andrew Quilty for The New York Times</media:credit>
+      <description>Translators, now facing Taliban threats, said the United States promised to keep them safe. Congress is bickering over the program meant to be their deliverance.</description>
+      <dc:creator>EMMARIE HUETTEMAN</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 09:00:24 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Translation and Interpreters</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Afghanistan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Visas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Republican Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Afghanistan War (2001-14)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Muslims and Islam</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Taliban</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>Israel Accuses U.N. Worker of Aiding Hamas in Gaza</title>
+      <link>http://www.nytimes.com/2016/08/10/world/middleeast/israel-accuses-un-worker-of-aiding-hamas-in-gaza.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/10/world/middleeast/israel-accuses-un-worker-of-aiding-hamas-in-gaza.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/10/world/middleeast/israel-accuses-un-worker-of-aiding-hamas-in-gaza.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/10/world/10charity1/10charity1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The United Nations Development Program headquarters in Gaza City. One of its engineers has been detained by Israel&#x2019;s internal security agency.</media:description>
+      <media:credit>Mahmud Hams/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Prosecutors say a United Nations Development Program engineer used his position to provide material assistance to the Islamist group and its military wing.</description>
+      <dc:creator>DIAA HADID</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 17:25:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">United Nations Development Program</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Hamas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Humanitarian Aid</category>
+    </item>
+    <item>
+      <title>Itineraries: Delta Malfunction on Land Keeps a Fleet of Planes From the Sky</title>
+      <link>http://www.nytimes.com/2016/08/09/business/delta-air-lines-delays-computer-failure.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/09/business/delta-air-lines-delays-computer-failure.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/09/business/delta-air-lines-delays-computer-failure.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/09/business/09DELTA2/09DELTA2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Delta Air Lines passengers waited in line at a ticket counter in Newark Liberty International Airport in New Jersey on Monday.</media:description>
+      <media:credit>Seth Wenig/Associated Press</media:credit>
+      <description>A cascade of delayed and canceled flights on Monday was the latest example of how a failure in an airline&#x2019;s system can have catastrophic effects.</description>
+      <dc:creator>ANNALYN KURTZ</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 15:30:31 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Delta Air Lines, Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Delays (Transportation)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Airlines and Airplanes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Network Outages</category>
+    </item>
+    <item>
+      <title>A 500-Square-Foot Area in Miami Is Ground Zero for the Zika Virus</title>
+      <link>http://www.nytimes.com/2016/08/09/health/zika-virus-florida.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/09/health/zika-virus-florida.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/09/health/zika-virus-florida.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/09/science/09ZIKA1/09ZIKA1-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>A plane sprays pesticide over the Wynwood neighborhood of Miami in August, the second round of aerial spraying in the area.</media:description>
+      <media:credit>Joe Raedle/Getty Images</media:credit>
+      <description>Health officials are investigating 17 homegrown cases of the virus, including 13 in the Wynwood neighborhood of Miami.</description>
+      <dc:creator>PAM BELLUCK</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 00:55:00 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Zika Virus</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mosquitoes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Wynwood (Miami, Fla)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Centers for Disease Control and Prevention</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Miami (Fla)</category>
+    </item>
+    <item>
+      <title>Saudi-Led Coalition Resumes Bombing of Yemeni Capital After Talks Collapse</title>
+      <link>http://www.nytimes.com/2016/08/10/world/middleeast/yemen-sana-airstrikes.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/10/world/middleeast/yemen-sana-airstrikes.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/10/world/middleeast/yemen-sana-airstrikes.html?partner=rss&amp;emc=rss"/>
+      <description>Warplanes struck Sana, killing civilians, after the collapse of talks between Houthi rebels and the Saudi-backed government.</description>
+      <dc:creator>ROD NORDLAND</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 12:44:57 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Houthis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Yemen</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sana (Yemen)</category>
+    </item>
+    <item>
+      <title>&#x2018;The Girl From Ipanema&#x2019; Goes Walking Again, With Gisele B&#xFC;ndchen&#x2019;s Help</title>
+      <link>http://www.nytimes.com/2016/08/10/arts/music/the-girl-from-ipanema-goes-walking-again-with-gisele-bundchens-help.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/10/arts/music/the-girl-from-ipanema-goes-walking-again-with-gisele-bundchens-help.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/10/arts/music/the-girl-from-ipanema-goes-walking-again-with-gisele-bundchens-help.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/10/us/10xp-ipanema2/10xp-ipanema2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Helo&#xED;sa Pinheiro in 2012. She was the muse for &#x201C;The Girl From Ipanema.&#x201D;</media:description>
+      <media:credit>Andre Penner/Associated Press</media:credit>
+      <description>Thanks to the supermodel&#x2019;s strut during the opening ceremony of the Rio Olympics, the 1963 bossa nova tune has found new life.</description>
+      <dc:creator>JONAH ENGEL BROMWICH</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 13:50:13 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Olympic Games (2016)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Pop and Rock Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Brazil</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bundchen, Gisele</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Girl From Ipanema (Song)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Vinicius de Moraes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Antonio Carlos Jobim</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Heloisa Pinheiro</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Stan Getz</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Joao Gilberto</category>
+    </item>
+    <item>
+      <title>Well: Need a Babysitter? Don&#x2019;t Count On Grandma</title>
+      <link>http://well.blogs.nytimes.com/2016/08/09/need-a-babysitter-dont-count-on-grandma/?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://well.blogs.nytimes.com/2016/08/09/need-a-babysitter-dont-count-on-grandma/</guid>
+      <atom:link rel="standout" href="http://well.blogs.nytimes.com/2016/08/09/need-a-babysitter-dont-count-on-grandma/?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/07/20/well/well-family-glickman/well-family-glickman-moth.png" medium="image" height="151" width="151"/>
+      <media:description>Susan Glickman with her granddaughter, Lilah.</media:description>
+      <media:credit/>
+      <description>There&#x2019;s often an undercurrent of ambivalence about being asked to help take care of grandchildren.</description>
+      <dc:creator>SHARON JAYSON</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 14:52:30 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/">Baby Boomers</category>
+      <category domain="http://www.nytimes.com/namespaces/">Families and Family Life</category>
+      <category domain="http://www.nytimes.com/namespaces/">Grandparents</category>
+      <category domain="http://www.nytimes.com/namespaces/">Family</category>
+      <category domain="http://www.nytimes.com/namespaces/">Featured</category>
+    </item>
+    <item>
+      <title>Here&#x2019;s Lucy! &#x2018;Scary&#x2019; Statue Is Replaced With One That Looks Like Her</title>
+      <link>http://www.nytimes.com/2016/08/10/arts/design/scary-lucy-statue-is-replaced-on-anniversary-of-comedians-105th-birthday.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/10/arts/design/scary-lucy-statue-is-replaced-on-anniversary-of-comedians-105th-birthday.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/10/arts/design/scary-lucy-statue-is-replaced-on-anniversary-of-comedians-105th-birthday.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/10/us/10xp-lucille1/10xp-lucille1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The new statue of the actress Lucille Ball was unveiled on what would have been the comedian&#x2019;s 105th birthday in Celoron, N.Y.</media:description>
+      <media:credit>via Reuters</media:credit>
+      <description>A widely mocked statue of Lucille Ball was replaced in her western New York hometown of Celoron on what would have been the comedian&#x2019;s 105th birthday.</description>
+      <dc:creator>LIAM STACK</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 11:19:34 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Celoron (NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sculpture</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ball, Lucille</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Schrecengost, Scott</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Palmer, Carolyn</category>
+    </item>
+    <item>
+      <title>Speculation Ends: Date and Venue Set for World Chess Championship in New York</title>
+      <link>http://www.nytimes.com/2016/08/10/nyregion/speculation-ends-date-and-venue-set-for-world-chess-championship-in-new-york.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/10/nyregion/speculation-ends-date-and-venue-set-for-world-chess-championship-in-new-york.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/10/nyregion/speculation-ends-date-and-venue-set-for-world-chess-championship-in-new-york.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/09/nyregion/09CHESS/09CHESS-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A chess board and a map of New York City at the headquarters of Chess in the Schools in Manhattan. The World Chess Championship is scheduled to begin on Nov. 11 at the South Street Seaport and continue for several weeks.</media:description>
+      <media:credit>Tom White for The New York Times</media:credit>
+      <description>The tournament will be held at the South Street Seaport in Lower Manhattan starting in November, returning to the city for the first time in more than two decades.</description>
+      <dc:creator>JOHN LELAND</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 10:00:28 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Chess</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ilyumzhinov, Kirsan N</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Manhattan (NYC)</category>
+    </item>
+    <item>
+      <title>U.S. Mortality Rate Declines, and Researchers Breathe a Sigh of Relief</title>
+      <link>http://www.nytimes.com/2016/08/09/science/us-mortality-rate-decline.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/09/science/us-mortality-rate-decline.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/09/science/us-mortality-rate-decline.html?partner=rss&amp;emc=rss"/>
+      <description>The death rate, a key indicator of the health of a nation, was propelled to an increase last year in part because of drug overdoses.</description>
+      <dc:creator>SABRINA TAVERNISE</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 04:01:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Center for Health Statistics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medicine and Health</category>
+    </item>
+    <item>
+      <title>Letter From Europe: For Italians, Donald Trump&#x2019;s Act Is Familiar</title>
+      <link>http://www.nytimes.com/2016/08/09/world/europe/donald-trump-silvio-berlusconi-vladimir-putin.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/09/world/europe/donald-trump-silvio-berlusconi-vladimir-putin.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/09/world/europe/donald-trump-silvio-berlusconi-vladimir-putin.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/09/world/09Letter-web/09Letter-web-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Silvio Berlusconi, center, in 2015. Much has been made in Italy of the similarities between Donald J. Trump and Mr. Berlusconi: Both glorify their success in business, both dominate the media landscape, both boast about their sexual prowess, and both seem to enjoy insulting people and nations.</media:description>
+      <media:credit>Flavio Lo Scalzo/European Pressphoto Agency</media:credit>
+      <description>&#x2018;&#x2018;Tocca a voi&#x2019;&#x2019; is a comment Italians often make to Americans now, meaning &#x2018;&#x2018;It is your turn,&#x2019;&#x2019; because Italy was once led by Silvio Berlusconi.</description>
+      <dc:creator>CELESTINE BOHLEN</dc:creator>
+      <pubDate>Mon, 08 Aug 2016 15:06:14 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Berlusconi, Silvio</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+    </item>
+    <item>
+      <title>What in the World: Who&#x2019;s Got a Carrier to Rival the U.S. Navy&#x2019;s? (Hint: Not Russia.)</title>
+      <link>http://www.nytimes.com/2016/08/10/world/what-in-the-world/whos-got-a-carrier-to-rival-the-us-navy-hint-not-russia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/10/world/what-in-the-world/whos-got-a-carrier-to-rival-the-us-navy-hint-not-russia.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/10/world/what-in-the-world/whos-got-a-carrier-to-rival-the-us-navy-hint-not-russia.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2015/12/24/world/witw-carrier/witw-carrier-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The French aircraft carrier Charles de Gaulle has played a central role in carrying out airstrikes against the Islamic State in the Middle East.</media:description>
+      <media:credit>Anne-Christine Poujoulat/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>To project striking power almost anywhere, it&#x2019;s hard to beat a nuclear-powered aircraft carrier. Almost all of the 11 in existence are American &#x2014; almost.</description>
+      <dc:creator>PATRICK J. LYONS</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 13:46:56 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Aircraft Carriers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">United States Navy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Middle East</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hollande, Francois</category>
+    </item>
+    <item>
+      <title>Facebook Blocks Ad Blockers, but It Strives to Make Ads More Relevant</title>
+      <link>http://www.nytimes.com/2016/08/10/technology/facebook-ad-blockers.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/10/technology/facebook-ad-blockers.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/10/technology/facebook-ad-blockers.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/09/business/10BLOCKER/10BLOCKER-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>As it blocks ad blockers, Facebook is asking its users to help control the ads they see on the site.</media:description>
+      <media:credit/>
+      <description>The programs that prevent websites from displaying ads will be rendered useless for those accessing the social network&#x2019;s desktop site, but not on mobile browsers.</description>
+      <dc:creator>MIKE ISAAC</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 16:41:37 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Online Advertising</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Desktop Computers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Mobile Applications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Thompson, Mark John (1957- )</category>
+    </item>
+    <item>
+      <title>De La Soul&#x2019;s Legacy Is Trapped in Digital Limbo</title>
+      <link>http://www.nytimes.com/2016/08/14/arts/music/de-la-soul-digital-albums.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/14/arts/music/de-la-soul-digital-albums.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/14/arts/music/de-la-soul-digital-albums.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/14/arts/14DELASOUL1/14DELASOUL1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>From left, David Jolicoeur, Kelvin Mercer and Vincent Mason of the pioneering hip-hop group De La Soul.</media:description>
+      <media:credit>Tony Cenicola/The New York Times</media:credit>
+      <description>The hip-hop pioneers have their first new album in 12 years, &#x201C;And the Anonymous Nobody.&#x201D; But if you want to hear their early work, look for CDs, vinyl and cassettes.</description>
+      <dc:creator>FINN COHEN</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 15:19:50 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rap and Hip-Hop</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Copyrights and Copyright Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">De La Soul</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Warner Music Group</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Royalties</category>
+    </item>
+    <item>
+      <title>As Peat Bogs Burn, a Climate Threat Rises</title>
+      <link>http://www.nytimes.com/2016/08/09/science/climate-change-carbon-bogs-peat.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/09/science/climate-change-carbon-bogs-peat.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/09/science/climate-change-carbon-bogs-peat.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/06/science/09PEAT1/09PEAT1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A lightning storm in Utikuma Lake, Alberta, in June. The area was burned from the 2011 wildfire. After each fire, peat moss grows and accumulates carbon, building a new layer on top of the previous one.</media:description>
+      <media:credit>Ed Ou for The New York Times</media:credit>
+      <description>Warming temperatures can dry out northern peatlands, increasing the risk of fires that release thousands of years of stored carbon into the atmosphere.</description>
+      <dc:creator>HENRY FOUNTAIN</dc:creator>
+      <pubDate>Mon, 08 Aug 2016 10:00:28 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Peat</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wildfires</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">bog</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Global Warming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Carbon Dioxide</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">moss</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Alberta (Canada)</category>
+    </item>
+    <item>
+      <title>Public Health: Obamacare Appears to Be Making People Healthier</title>
+      <link>http://www.nytimes.com/2016/08/09/upshot/obamacare-appears-to-be-making-people-healthier.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/08/09/upshot/obamacare-appears-to-be-making-people-healthier.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/08/09/upshot/obamacare-appears-to-be-making-people-healthier.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/08/09/business/09UP-Medicaid/09UP-Medicaid-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Wanda Morrison, 61, of Louisville, Ky., with her physician, Dr. Kimberley Brumleve, at the Family Health Center in Louisville in November 2015.</media:description>
+      <media:credit>Brittany Greeson for The New York Times</media:credit>
+      <description>A new survey of low-income people isn&#x2019;t perfect, but it suggests that new health insurance options have improved people&#x2019;s health.</description>
+      <dc:creator>MARGOT SANGER-KATZ</dc:creator>
+      <pubDate>Tue, 09 Aug 2016 07:30:23 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Patient Protection and Affordable Care Act (2010)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Preventive Medicine</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Health Insurance and Managed Care</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">States (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Medicaid</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">JAMA Internal Medicine (Journal)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Arkansas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kentucky</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Texas</category>
+    </item>
+  </channel>
+</rss>
+
