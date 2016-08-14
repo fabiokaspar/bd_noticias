@@ -2,10 +2,31 @@
 <html>
 
 <head> 
-<meta charset="UTF-8"> 
+<meta charset="UTF-8">
+
+<script src="http://syssgx.github.com/xml.js/js/xmllint.js"></script>
+<script src="./jquery-1.12.4.min.js"></script>
+
 </head>
 
 <style>
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	color: green;
+}
+
+#inicio {
+	margin-left: 30%;
+	margin-top: 60px;
+}
+
+h1 {
+	color: gray;
+	text-align: center;
+}
 table,th,td {
   border : 1px solid black;
   border-collapse: collapse;
@@ -13,44 +34,65 @@ table,th,td {
 th,td {
   padding: 5px;
 }
+
 </style>
 
 <body>
-Informe caminho do arquivo XML de entrada: </br> 
-<input type="text" name="file_path"> </br> </br>
-<button type="button" onclick="carregaDocXML()">Listar categorias </button> </br> </br>
-<table id="lista"></table>
+<h1> Notícias Online </h1>
+<div id="inicio"> Informe caminho do arquivo XML de entrada:  </br> 
+<input type="text" id="path_file"> </br> </br>
+<button type="button" onclick="abreArquivo()"> Carregar XML </button>  </br> </br>	
+<table id="lista"> 	</table>
+<table id="news">  	</table>
+</div>
+
 <br><br>
 
 
 <script type="text/javascript" language="javascript">
 
-var XML_FILE = "nyt_rss_feed.xml";
+//var XML_FILE = "nyt_rss_feed.xml";
+var XML_FILE;
 var XMLSCHEMA_FILE = "rss-2_0.xsd";
+
+var cat_list = [];
+
+function abreArquivo() {
+    XML_FILE = document.getElementById("path_file").value;
+   
+    if (XML_FILE == null || XML_FILE == "") {
+        alert("Digite um caminho de arquivo XML válido!");
+        return false;
+    }
+    else {
+        carregaDocXML();
+    }
+}
 
 /* Abre o arquivo XML e chama uma funcao para fazer a sua validacao */
 function carregaDocXML() {
-  var xmlhttp = new XMLHttpRequest();
+	var xmlhttp = new XMLHttpRequest();
 
-/* XMLHttpRequest é um objeto JavaScript  usado para recuperar de um 
-modo fácil dados em uma URL. Ao contrário do que o nome sugere, 
-XMLHttpRequest pode ser usado para recuperar qualquer tipo de dados, 
-e não apenas XML. Ele possui suporte também para outros protocolos 
-além do HTTP (incluindo os protocolos file e ftp ). */
-	
-   
-  xmlhttp.onreadystatechange = function() {
+	/* XMLHttpRequest é um objeto JavaScript  usado para recuperar de um 
+	modo fácil dados em uma URL. Ao contrário do que o nome sugere, 
+	XMLHttpRequest pode ser usado para recuperar qualquer tipo de dados, 
+	e não apenas XML. Ele possui suporte também para outros protocolos 
+	além do HTTP (incluindo os protocolos file e ftp ). */
+
+
+	xmlhttp.onreadystatechange = function() {
 	  
-    /* readyState = 4 ---> Leitura ja concluida 
-       status = 200   ---> request bem sucedido */
-    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-      /* Depois que o arquivo do doc XML for carregado,
-         chama a funcao que fará a validacao doc XML*/
-		validaDocXML(xmlhttp);
-    }
-  };
-  xmlhttp.open("GET", XML_FILE, true);
-  xmlhttp.send();
+		/* readyState = 4 ---> Leitura ja concluida 
+		   status = 200   ---> request bem sucedido */
+		if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+			/* Depois que o arquivo do doc XML for carregado,
+			 chama a funcao que fará a validacao doc XML*/
+			validaDocXML(xmlhttp);
+		}
+	};
+
+	xmlhttp.open("GET", XML_FILE, true);
+	xmlhttp.send();
 }
 
 
@@ -59,32 +101,33 @@ além do HTTP (incluindo os protocolos file e ftp ). */
    Caso o doc seja valido, chama a funcao que exibira 
    o seu conteudo. */
 function validaDocXML(xmlhttp) {
-  var xsdhttp = new XMLHttpRequest();
+	var xsdhttp = new XMLHttpRequest();
 
-  xsdhttp.onreadystatechange = function() {
-    if (xsdhttp.readyState == 4 && xsdhttp.status == 200) {
-      /* Depois que o arquivo do esquema for carregado,
-         chama a funcao que usara o esquema para fazer a 
-         validacao do doc XML*/
-      var resposta = validaEsquema(xmlhttp.responseText, xsdhttp.responseText);
+	xsdhttp.onreadystatechange = function() {
+		if (xsdhttp.readyState == 4 && xsdhttp.status == 200) {
+				/* Depois que o arquivo do esquema for carregado,
+			 	chama a funcao que usara o esquema para fazer a 
+			 	validacao do doc XML*/
+				var resposta = validaEsquema(xmlhttp.responseText, xsdhttp.responseText);
 
-      if (resposta != null) {
-		/* Doc XML nao tem uma estrutura valida segundo o 
-           esquema XML Schema definido como base*/
-        
-        /* Exibe mensagem de erro */
-        alert("O arquivo fornecido nao possui o formato esperado! \nProblema: " + resposta);
-	  }
-      else { 
-		
-		mostraConteudo(xmlhttp);
-	  }
-    };
-  };
-  xsdhttp.open("GET", XMLSCHEMA_FILE, true);
-  xsdhttp.send();
-  console.log("validaDocXML: "+resposta);
-  return resposta;
+			if (resposta != null) {
+				/* Doc XML nao tem uma estrutura valida segundo o 
+			   	esquema XML Schema definido como base*/
+
+				/* Exibe mensagem de erro */
+				alert("O arquivo fornecido nao possui o formato esperado! \nProblema: " + resposta);
+			}
+			else { 
+				mostraConteudo(xmlhttp);
+			}
+		}
+	};
+
+	xsdhttp.open("GET", XMLSCHEMA_FILE, true);
+	xsdhttp.send();
+	console.log("validaDocXML: "+resposta);
+
+	return resposta;
 }
 
 /* Recebe uma string contendo um doc XML e outra contendo
@@ -94,22 +137,35 @@ function validaDocXML(xmlhttp) {
    uma string com o erro encontrado do documento XML. */
 function validaEsquema(strDocXML,strDocXSD) {
 
-    /* cria objeto que sera passado para a funcao de validacao */
-    var modulo = {
-          xml: strDocXML,   /* conteudo do doc XML a ser validado */
-          schema: strDocXSD, /* conteudo do arquivo XSD com o esquema */
-          arguments: ["--noout", "--schema", XMLSCHEMA_FILE, XML_FILE]
-    };
-     
-    /* Chama o validador implementado na biblioteca xmllint.js 
-       disponivel em http://syssgx.github.com/xml.js/js/xmllint.js */
-       
-    var resposta = validateXML(modulo);
-    
-    if (resposta.match("fails to validate")) 
-      return resposta;
-    
-    else return null;
+	/* cria objeto que sera passado para a funcao de validacao */
+	var modulo = {
+		xml: strDocXML,   /* conteudo do doc XML a ser validado */
+		schema: strDocXSD, /* conteudo do arquivo XSD com o esquema */
+		arguments: ["--noout", "--schema", XMLSCHEMA_FILE, XML_FILE]
+	};
+	 
+	/* Chama o validador implementado na biblioteca xmllint.js 
+	   disponivel em http://syssgx.github.com/xml.js/js/xmllint.js */
+	   
+	var resposta = validateXML(modulo);
+
+	if (resposta.match("fails to validate")) 
+		return resposta;
+
+	else return null;
+}
+
+function mostraNoticias (idCat) {
+	var nt = cat_list[idCat].noticias;
+	console.log(nt)
+	var sz = nt.length;
+	var tabela_news = "<tr> <th> TITULO </th> <th> URL </th> </tr>";
+	
+	for (var i = 0; i < sz; i++) {
+		tabela_news += "<tr> <td>"+ nt[i].titulo +"</td>  <td> <a href='"+ nt[i].url +"'>"+ nt[i].url +"</a> </td></tr>";
+	}
+
+	document.getElementById("news").innerHTML = tabela_news;
 }
 
 /* Exibe os dados do doc XML em um tabela 
@@ -126,8 +182,10 @@ function mostraConteudo(xmlhttp) {
 	 nova linha na tabela os valores dos elementos ARTISTA e TITULO */
 	var noticia = allNews.iterateNext();
 	var nome_cat = null;
-	var cat_list = [];
 	
+	var cont = 0;
+	cat_list = [];
+
 	while (noticia)
 	{
 		var arr = noticia.getElementsByTagName("category");
@@ -148,14 +206,23 @@ function mostraConteudo(xmlhttp) {
 					// sao iguais
 						
 					if (nome_cat == cat_list[j].nome) {
+						cat_list[j].noticias.push(not_obj);
+
 						break;
 					}
 					j++;
 				}
 				
-				if (j == cat_list.length && nome_cat != null) {
-					tabela = tabela + "<tr> <td> <a href='programa.html'> " + nome_cat + " </a> </td></tr>";
+				// se não encontrou categoria na lista
+				if (j == cat_list.length) {
 					
+					tabela += "<tr> <td> <a href='#' id='"+cont +"' onClick='solution(id)'> " + nome_cat + " </a> </td></tr>"; 
+				
+					// tabela += "<tr> <td id = '10' > <a href='programa.html'> " + nome_cat + " </a> </td></tr>";
+
+					cont = cont+1;
+					
+
 					var cat_obj = {"nome": nome_cat, "noticias": [not_obj] };
 					cat_list.push(cat_obj);
 				}	
@@ -166,9 +233,17 @@ function mostraConteudo(xmlhttp) {
 	}
 
 	document.getElementById("lista").innerHTML = tabela;
+	$("#lista").show();
+	$("#news").hide();
+}
+
+function solution (id) {
+	mostraNoticias(id);
+	$("#lista").hide();
+	$("#news").show();
 }
 
 </script>
-<script src="http://syssgx.github.com/xml.js/js/xmllint.js"></script>
+
 </body>
 </html>
